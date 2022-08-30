@@ -11,6 +11,16 @@
 		7F79D87628BBD804009D07BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D87528BBD804009D07BE /* ContentView.swift */; };
 		7F79D87828BBD805009D07BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F79D87728BBD805009D07BE /* Assets.xcassets */; };
 		7F79D87B28BBD805009D07BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F79D87A28BBD805009D07BE /* Preview Assets.xcassets */; };
+		7F79D88228BBD82B009D07BE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88128BBD82B009D07BE /* Helper.swift */; };
+		7F79D88528BBD837009D07BE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88328BBD836009D07BE /* Menu.swift */; };
+		7F79D88628BBD837009D07BE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88428BBD836009D07BE /* Order.swift */; };
+		7F79D88828BBD85D009D07BE /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F79D88728BBD85D009D07BE /* menu.json */; };
+		7F79D88A28BBDE79009D07BE /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88928BBDE79009D07BE /* ItemRow.swift */; };
+		7F79D88C28BCF582009D07BE /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88B28BCF582009D07BE /* ItemDetail.swift */; };
+		7F79D88E28BD06C8009D07BE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88D28BD06C8009D07BE /* OrderView.swift */; };
+		7F79D89028BD56B1009D07BE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D88F28BD56B1009D07BE /* MainView.swift */; };
+		7F79D89228BD5A10009D07BE /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D89128BD5A10009D07BE /* CheckoutView.swift */; };
+		7F79D89428BDF053009D07BE /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79D89328BDF053009D07BE /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		7F79D87528BBD804009D07BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F79D87728BBD805009D07BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F79D87A28BBD805009D07BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F79D88128BBD82B009D07BE /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		7F79D88328BBD836009D07BE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		7F79D88428BBD836009D07BE /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7F79D88728BBD85D009D07BE /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		7F79D88928BBDE79009D07BE /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		7F79D88B28BCF582009D07BE /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		7F79D88D28BD06C8009D07BE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		7F79D88F28BD56B1009D07BE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7F79D89128BD5A10009D07BE /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		7F79D89328BDF053009D07BE /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +73,17 @@
 			children = (
 				7F79D87328BBD804009D07BE /* iDineApp.swift */,
 				7F79D87528BBD804009D07BE /* ContentView.swift */,
+				7F79D88F28BD56B1009D07BE /* MainView.swift */,
+				7F79D89328BDF053009D07BE /* FavoritesView.swift */,
+				7F79D88B28BCF582009D07BE /* ItemDetail.swift */,
+				7F79D88D28BD06C8009D07BE /* OrderView.swift */,
+				7F79D89128BD5A10009D07BE /* CheckoutView.swift */,
+				7F79D88928BBDE79009D07BE /* ItemRow.swift */,
 				7F79D87728BBD805009D07BE /* Assets.xcassets */,
+				7F79D88328BBD836009D07BE /* Menu.swift */,
+				7F79D88428BBD836009D07BE /* Order.swift */,
+				7F79D88128BBD82B009D07BE /* Helper.swift */,
+				7F79D88728BBD85D009D07BE /* menu.json */,
 				7F79D87928BBD805009D07BE /* Preview Content */,
 			);
 			path = iDine;
@@ -125,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F79D88828BBD85D009D07BE /* menu.json in Resources */,
 				7F79D87B28BBD805009D07BE /* Preview Assets.xcassets in Resources */,
 				7F79D87828BBD805009D07BE /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +168,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F79D89428BDF053009D07BE /* FavoritesView.swift in Sources */,
+				7F79D88C28BCF582009D07BE /* ItemDetail.swift in Sources */,
+				7F79D89028BD56B1009D07BE /* MainView.swift in Sources */,
+				7F79D89228BD5A10009D07BE /* CheckoutView.swift in Sources */,
+				7F79D88E28BD06C8009D07BE /* OrderView.swift in Sources */,
 				7F79D87628BBD804009D07BE /* ContentView.swift in Sources */,
 				7F79D87428BBD804009D07BE /* iDineApp.swift in Sources */,
+				7F79D88628BBD837009D07BE /* Order.swift in Sources */,
+				7F79D88A28BBDE79009D07BE /* ItemRow.swift in Sources */,
+				7F79D88528BBD837009D07BE /* Menu.swift in Sources */,
+				7F79D88228BBD82B009D07BE /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
